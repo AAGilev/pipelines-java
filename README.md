@@ -1,3 +1,23 @@
+# Hello world sample web app
+
+This repository contains a small Java web app sample and a local AI artifact
+assistant for implementation project files.
+
+## Local AI assistant for project artifacts
+
+Use `tools/ai_artifact_assistant.py` to index, search, summarize, and ask
+questions about local project artifacts with a local Ollama model.
+
+Quick start:
+
+```bash
+scripts/install_ollama_models.sh
+mkdir -p project_artifacts
+python3 tools/ai_artifact_assistant.py index project_artifacts src README.md
+python3 tools/ai_artifact_assistant.py ask "Which integrations and open questions are mentioned?"
+```
+
+Full instructions: [docs/local-ai-artifact-assistant.md](docs/local-ai-artifact-assistant.md).
 
 # Contributing
 
