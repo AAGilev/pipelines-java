@@ -29,3 +29,7 @@ hs_err_pid*
 
 *.iml
 target/
+
+# Local AI assistant data and customer/project artifacts
+.ai_artifacts/
+project_artifacts/
